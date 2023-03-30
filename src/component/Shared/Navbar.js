@@ -38,7 +38,7 @@ const Navbar = () => {
     </React.Fragment>
   );
   return (
-    <div className="bg-gray-200 sticky top-0 ">
+    <div className="bg-gray-200 sticky top-0  ">
       <nav className=" flex w-11/12 mx-auto items-center justify-between p-4  ">
         <div>
           <img src={logo} className="h-10" alt="" />

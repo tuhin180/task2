@@ -3,7 +3,7 @@ import { BsInfo } from "react-icons/bs";
 
 const SaModel = () => {
   return (
-    <div className=" rounded-md shadow-lg h-[580px] w-[480px] overflow-y-scroll ">
+    <div className=" rounded-md shadow-lg h-[580px] w-[480px] overflow-y-scroll scrollbar-none ">
       <span className="flex w-full bg-black p-4 justify-between rounded-t-xl">
         <span></span>
         <h1 className=" text-white  text-center ">4SA Model</h1>

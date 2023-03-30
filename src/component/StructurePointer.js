@@ -8,13 +8,13 @@ import {
 } from "react-icons/hi2";
 import { FaSave } from "react-icons//fa";
 import { BsFillCloudArrowUpFill } from "react-icons/bs";
-import Button from "../Button";
-import ButtonIcon from "../ButtonIcon";
+import Button from "./Button";
+import ButtonIcon from "./ButtonIcon";
 
 const StructurePointer = () => {
   const [option, setOption] = useState(false);
   return (
-    <div className=" rounded-md shadow-lg h-[580px] w-[480px] overflow-y-scroll scrollbar-w-0">
+    <div className=" rounded-md shadow-lg h-[580px] w-[480px] overflow-y-scroll scrollbar-none">
       <span className="flex w-full bg-black p-4 justify-between rounded-t-xl">
         <span></span>
         <h1 className=" text-white ">Structure your pointer</h1>

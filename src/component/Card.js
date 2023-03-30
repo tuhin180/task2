@@ -10,10 +10,10 @@ import {
   BsLink,
   BsPencil,
 } from "react-icons/bs";
-import TechnicalProject from "../TechnicalProject";
-import ThreadBuild from "../ThreadBuild";
+import TechnicalProject from "./TechnicalProject";
+import ThreadBuild from "./ThreadBuild";
 import StructurePointer from "./StructurePointer";
-import SaModel from "../SaModel";
+import SaModel from "./SaModel";
 
 const category = ["category", "remak", "item"];
 
